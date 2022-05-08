@@ -17,9 +17,6 @@ gdc_plutoDebug = false;
 //Get number of players to allow dynamic ENI units number adaptation
 nbJoueurs = count (playableUnits + (switchableUnits select {_x != HC_Slot}));
 
-
-
-
 /*******************************************/
 /*         IA GROUP DEF                    */
 /*******************************************/
@@ -65,7 +62,9 @@ execVM "spawn_IA\spawnZB.sqf";
 /*******************************************/
 /*                WEATHER                  */
 /*******************************************/
-[0, [0.7, -0.5, 70]] remoteExecCall ["setFog", 2];
+//[0, [0.7, -0.5, 70]] remoteExecCall ["setFog", 2];
+
+0 setFog [0.7, -0.5, 70];
 
 []spawn {
 	waituntil  {time > 1800};

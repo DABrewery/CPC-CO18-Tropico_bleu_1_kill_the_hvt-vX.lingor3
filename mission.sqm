@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=7365;
+		nextID=7367;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=549;
+		nextID=699;
 	};
 	class Camera
 	{
-		pos[]={4797.1797,31.387579,2676.0691};
-		dir[]={0.38927326,-0.22839798,-0.89235681};
-		up[]={0.091323093,0.9735679,-0.20934597};
-		aside[]={-0.91658413,-7.4505806e-009,-0.39984196};
+		pos[]={4798.7251,9.0479288,2676.3164};
+		dir[]={-0.92036963,-0.35834274,0.15709628};
+		up[]={-0.35329312,0.93356806,0.060302954};
+		aside[]={0.16827023,-1.4948819e-006,0.98582435};
 	};
 };
 binarizationWanted=0;
@@ -604,7 +604,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -659,7 +659,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -18149,7 +18149,7 @@ class Mission
 					type="";
 					a=83.425003;
 					b=353.134;
-					angle=56.695858;
+					angle=56.69585;
 					id=7141;
 					atlOffset=0.00036144257;
 				};
@@ -21445,6 +21445,7 @@ class Mission
 							class primaryWeapon
 							{
 								name="CUP_lmg_L110A1";
+								firemode="CUP_lmg_L110A1:FullAuto";
 								class primaryMuzzleMag
 								{
 									name="30Rnd_556x45_Stanag_Tracer_Red";
@@ -21512,7 +21513,7 @@ class Mission
 									class Item2
 									{
 										name="30Rnd_556x45_Stanag_Tracer_Red";
-										count=7;
+										count=9;
 										ammoLeft=30;
 									};
 								};
@@ -22235,6 +22236,7 @@ class Mission
 							class primaryWeapon
 							{
 								name="CUP_lmg_L110A1";
+								firemode="CUP_lmg_L110A1:FullAuto";
 								class primaryMuzzleMag
 								{
 									name="30Rnd_556x45_Stanag_Tracer_Red";
@@ -22302,7 +22304,7 @@ class Mission
 									class Item2
 									{
 										name="30Rnd_556x45_Stanag_Tracer_Red";
-										count=7;
+										count=9;
 										ammoLeft=30;
 									};
 								};
